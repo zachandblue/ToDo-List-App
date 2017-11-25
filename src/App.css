@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  width: 460px;
+  height: 800px;
+  margin: 0 auto;
+  background: #2f4858;
+  border-radius: 5px;
+}
+
+.content {
+  background: #e6e6e6 ;
+  height: 700px;
+  overflow: scroll;
+}
+
+h1 {
+  color: #e6e6e6 ;
+  padding-top: 15px;
+}
+
+.container {
+  width: 100%;
+}
+
+hr {
+  border: 2px solid #2f4858;
+}
+
+.form-box {
+  height: 50px;
+  margin: 0;
+
+}
+
+.box {
+  height: 65px;
+  width: 100%;
+  background-color: #dc965a;
+  background-color: #ffca3a;
+  margin: 8px 0px;
+  color: #ecfee8 ;
+  font-size: 30px;
+  line-height: 65px;
+  text-align: left;
+  border-radius: 3px;
+  box-shadow: 2px 2px slategrey;
+}
+
+.box:nth-child(8n+2) {
+  background-color: #ff595e;
+}
+.box:nth-child(8n+3) {
+  background-color: #8ac926;
+}
+.box:nth-child(8n+4) {
+  background-color: #1982c4;
+}
+.box:nth-child(8n+5) {
+  background-color: #6a4c93;
+}
+.box:nth-child(8n+6) {
+  background-color: #083d77;
+}
+.box:nth-child(8n+7) {
+  background-color: #30bced;
+}
+.box:nth-child(8n+8) {
+  background-color: #068d9d   ;
+}
+
+.box:hover {
+  cursor: hand;
+  cursor: pointer;
+}
+
+.text-box, .button {
+  height: 45px;
+  border: 0px rgba(255, 255, 255, 0.3) solid;
+  margin:  12px 1px;
+  background: none ;
+  color: 2d3047;
+  font-size: 30px;
+}
+
+.text-box:focus, .button:focus {
+  outline: none;
+}
+
+.text-box::placeholder, text-box::placeholder {
+  color: #888;
+
+}
+
+.button {
+
+font-weight: bold;
+
+
+}
