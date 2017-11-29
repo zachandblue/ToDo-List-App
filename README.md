@@ -137,6 +137,9 @@ my-app/
     logo.svg
 ```
 
+excluded base.js from git hub
+
+
 For the project to build, **these files must exist with exact filenames**:
 
 * `public/index.html` is the page template;
